@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+@import 'components/header';
+@import 'components/form';
+@import 'components/meme';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 36px;
+}

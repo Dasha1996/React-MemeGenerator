@@ -1,0 +1,26 @@
+.header {
+    @include linear-gradient($primary-color, $secondary-color);
+    padding: 30px 60px;
+    position:fixed;
+    width: 100%;
+    @include flex;
+    @include space-between;
+      &--logo-container {
+         @include flex;
+         img {
+            width: 60px;
+            margin-right: 10px;
+         }
+    }
+      &--title {
+         font-family: $font-family-primary;
+         font-weight: $font-weight-title;
+         color: $font-color;
+    }
+    p {
+        font-family: $font-family-secondary;
+        color: white;
+    }
+
+}
+
